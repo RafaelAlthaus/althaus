@@ -8,6 +8,6 @@ Site para divulgação própria.
 :rocket: [React FontAwesome](https://github.com/FortAwesome/react-fontawesome) <br />
 :rocket: [Ant Design](https://github.com/ant-design/ant-design)
 
-### Me ajude a melhorar!
+## Me ajude a melhorar!
 
 Faça um pull request! Esse projeto pode servir de aprendizado para outras pessoas.
