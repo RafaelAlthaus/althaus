@@ -1,17 +1,10 @@
 @import '~antd/dist/antd.css';
 
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.appHeader {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,9 +12,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: rgba(40, 44, 52, 0.5);
 }
 
-.App-link {
+.appLink {
   color: #61dafb;
 }
 
@@ -39,6 +33,10 @@
   font-size: 23px;
 }
 
+.btnSocial {
+  margin: 10px 5px 0px 5px;
+}
+
 .btnWhatsApp {
   font-size: 18px;
   height: 50px;
@@ -46,14 +44,63 @@
   border-color: #009e42;
 }
 
+.btnWhatsApp:hover {
+  color: #00C853;
+  background-color: white;
+  border-color: white;
+}
+
+.btnLinkedin {
+  font-size: 18px;
+  height: 50px;
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.btnLinkedin:hover {
+  color: #0077b5;
+  background-color: white;
+  border-color: white;
+}
+
+.btnGithub {
+  font-size: 18px;
+  height: 50px;
+  background-color: #0d1012;
+  border-color: #0d1012;
+}
+
+.btnGithub:hover {
+  font-size: 18px;
+  height: 50px;
+  color: #0d1012;
+  background-color: white;
+  border-color: white;
+}
+
 .heading {
   color: white;
   font-size: 42px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .subtitle {
   color: white;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.headingColor {
+  color: #282c34;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subtitleColor {
+  color: #282c34;
   font-size: 21px;
   line-height: 30px;
   font-weight: 300;
@@ -80,4 +127,52 @@
 .starDestaque {
   margin-right: 10px;
   color: #FFFF00;
+}
+
+.headingCTA {
+  color: white;
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 21px;
+  line-height: 68px;
+}
+
+.subtitleCTA {
+  color: white;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.imgTecnologias {
+  max-width: 100%;
+}
+
+.divImgTecnologias {
+  padding: 30px 20vw 10px 20vw;
+}
+
+.tecnologias {
+  background-color: white;
+  padding: 50px 0px 50px 0px;
+}
+
+.buttonsCTA {
+  margin-top: 5vw;
+}
+
+.appFooter {
+  background-color: #282c34;
+  padding: 20px 0px 20px 0px;
+}
+
+.pFooter {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.road {
+  background-color: #282c34;
+  padding: 50px 0px 50px 0px;
 }

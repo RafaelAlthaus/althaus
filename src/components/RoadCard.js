@@ -14,7 +14,7 @@ export default class Road extends Component {
                 {
                     this.props.list.map((obj, i) => {
                         if (obj.star) {
-                            obj.title = <span><FontAwesomeIcon icon={faStar} className='starDestaque' /> {obj.title}</span>
+                            obj.title = <span>⭐️ {obj.title}</span>
                         }
 
                         return (

@@ -49,22 +49,24 @@ export default class Road extends Component {
         ];
 
         return (
-            <div className="divHeading">
-                <h1 className="heading">O caminho até aqui...</h1>
-                <p className='subtitle'>
-                    Abaixo estão alguns projetos que merecem ser mencionados. Alguns nomes e detalhes foram ocultados para não comprometer termos de confidencialidade que
-                    podem valer antes, durante e depois da conclusão dos projetos, assim como proteger as empresas contratadas e contratantes dos serviços prestados.
+            <div className="road">
+                <div className="divHeading">
+                    <h1 className="heading">O caminho até aqui...</h1>
+                    <p className='subtitle'>
+                        Abaixo estão alguns projetos que merecem ser mencionados. Alguns nomes e detalhes foram ocultados para não comprometer termos de confidencialidade que
+                        podem valer antes, durante e depois da conclusão dos projetos, assim como proteger as empresas contratadas e contratantes dos serviços prestados.
                 </p>
 
-                <RoadCard list={works} />
+                    <RoadCard list={works} />
 
-                <Row gutter={16}>
-                    <Col className="cardColumn">
-                        <Card headStyle={{ fontSize: '26px' }} title="+16 outros projetos" bordered={false}>
-                            <p style={{ fontSize: '19px' }}>A lista ficaria <b>grande demais pra colocar tudo.</b> E-commerces, sites institucionais, apps de uso interno, refatoração de antigos projetos e por aí vai.</p>
-                        </Card>
-                    </Col>
-                </Row>
+                    <Row gutter={16}>
+                        <Col className="cardColumn">
+                            <Card headStyle={{ fontSize: '26px' }} title="+16 outros projetos" bordered={false}>
+                                <p style={{ fontSize: '19px' }}>A lista ficaria <b>grande demais pra colocar tudo.</b> E-commerces, sites institucionais, apps de uso interno, refatoração de antigos projetos e por aí vai.</p>
+                            </Card>
+                        </Col>
+                    </Row>
+                </div>
             </div>
         );
     }

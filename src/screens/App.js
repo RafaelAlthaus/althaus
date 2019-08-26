@@ -1,58 +1,94 @@
 import React, { Component } from 'react';
-import logo from '../resources/logo.svg';
-import '../styles/App.css';
-import Button from 'antd/es/button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
-import Road from './components/Road';
+import Road from '../components/Road';
+import Header from '../components/Header';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export default class App extends Component {
 
-  clickWhatsApp = () => {
-    window.open('https://api.whatsapp.com/send?phone=554299942259&text=Ol%C3%A1,%20Rafael!', '_blank');
-  }
+
 
   render() {
+    const responsive = {
+      superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+      },
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+      },
+    };
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
+      <div className="app">
+        <Header nome="Rafael Althaus" whatsapp="5542999042259" github="RafaelAlthaus" linkedin="rafael-althaus-3459b8a5" />
 
-          <div className="divHeading">
-            <h1 className="heading">Prazer, Rafael Althaus.</h1>
-            <p className='subtitle'>
-              
-            </p>
-          </div>
-
+        <div className="quemSou">
           <div className="divHeading">
             <h1 className="heading">Na realidade, o que eu faço?</h1>
             <p className='subtitle'>
               Desenvolvimento de produtos focados em entregar valor real, não apenas código.
             </p>
           </div>
+        </div>
 
+        <div className="tecnologias">
           <div className="divHeading">
-            <h1 className="heading">O que aprendi até agora?</h1>
-            <p className='subtitle'>
+            <h1 className="headingColor">O que aprendi até agora?</h1>
+            <p className='subtitleColor'>
               Todo projeto exige uma stack de tecnologias próprias e que fazem sentido pro seu caso de uso. Portanto, acumulei incotáveis horas de trabalho
               com diferentes linguagens, frameworks e serviços.
             </p>
           </div>
 
-          <Road />
+          <Carousel responsive={responsive}
+            swipeable={false}
+            draggable={false}
+            autoPlay={true}
+            autoPlaySpeed={1000}
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            infinite={true}
+          >
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+            <div>Item 4</div>
+          </Carousel>
 
-          <div className="divHeading">
-            <h1 className="heading">O que me interessa no momento</h1>
-            <p className='subtitle'>
-              De tempos em tempos, alguns assuntos prendem minha atenção.
-            </p>
+          <div className="divImgTecnologias">
+            <img src="/images/tecnologias.png" className="imgTecnologias" />
           </div>
+        </div>
 
-          <Button type="primary" className="btnWhatsApp" onClick={() => this.clickWhatsApp()}><FontAwesomeIcon icon={faWhatsapp} className="btnIcon" />Me dá um oi pelo WhatsApp!</Button>
-        </header>
+        <Road />
+
+        <div className="divHeading">
+          <h1 className="heading">O que me interessa no momento</h1>
+          <p className='subtitle'>
+            De tempos em tempos, alguns assuntos prendem minha atenção.
+            </p>
+        </div>
+
+        <div className="appFooter">
+          <p className="pFooter">🚀 Site de código aberto disponível em meu <a href="https://github.com/RafaelAlthaus/althaus" target="_blank">GitHub.</a> 🚀</p>
+        </div>
       </div>
     );
   }
