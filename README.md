@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png" width="600">
+  <br />
 </p>
 
 ## 💻 Rafael Althaus em ReactJS
