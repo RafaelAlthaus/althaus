@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png?token=ACGHPL7CJMAWHUGJBU3HOXC5N3IGU" width="600">
+  <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png" width="600">
 </p>
 
 ## 💻 Rafael Althaus em ReactJS
