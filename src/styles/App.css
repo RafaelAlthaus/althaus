@@ -229,8 +229,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background: rgb(0,119,181);
-  background: radial-gradient(circle, rgba(0, 77, 117,1) 0%, rgba(40,44,52,1) 80%);
+  background-color: #282c34;
+  /* background: rgb(0,119,181);
+  background: radial-gradient(circle, rgba(0, 77, 117,1) 0%, rgba(40,44,52,1) 80%); */
 }
 
 .loadingMessage {
