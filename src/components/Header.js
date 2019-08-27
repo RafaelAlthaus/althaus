@@ -21,15 +21,15 @@ import Row from 'antd/es/row';
 
 export default class Header extends Component {
     clickWhatsApp = () => {
-        window.open('https://api.whatsapp.com/send?phone=' + this.props.whatsapp + '&text=Ol%C3%A1,%20Rafael!', '_blank');
+        window.open('https://api.whatsapp.com/send?phone=' + this.props.data.whatsapp + '&text=Ol%C3%A1,%20Rafael!', '_blank');
     }
 
     clickLinkedin = () => {
-        window.open('https://www.linkedin.com/in/' + this.props.linkedin, '_blank');
+        window.open('https://www.linkedin.com/in/' + this.props.data.linkedin, '_blank');
     }
 
     clickGithub = () => {
-        window.open('https://github.com/' + this.props.github, '_blank');
+        window.open('https://github.com/' + this.props.data.github, '_blank');
     }
 
     render() {
@@ -55,10 +55,8 @@ export default class Header extends Component {
 
                     <Row gutter={16} style={{ margin: '65px 0px 65px 0px' }}>
                         <Col>
-                            <h1 className="headingCTA">Prazer, {this.props.nome}.</h1>
-                            <p className='subtitleCTA'>
-                            💻 Developer. 📱 
-                            </p>
+                            <h1 className="headingCTA">Prazer, <span style={{ color: '#61dafb' }}>{this.props.data.nome}.</span></h1>
+                            <p className='subtitleCTA'>{this.props.data.subtitle}</p>
 
                             <div className="buttonsCTA">
                                 <Button type="primary" className="btnSocial btnGithub" onClick={() => this.clickGithub()}><FontAwesomeIcon icon={faGithub} className="btnIcon" />Github</Button>

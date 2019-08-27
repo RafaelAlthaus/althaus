@@ -12,7 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: rgba(40, 44, 52, 0.5);
+  background-color: rgba(40, 44, 52, 0.65);
 }
 
 .appLink {
@@ -116,9 +116,6 @@
   }
 }
 
-.cardText {
-  font-size: 16px;
-}
 
 .cardColumn {
   margin-top: 20px;
@@ -139,17 +136,10 @@
 
 .subtitleCTA {
   color: white;
-  font-size: 27px;
+  font-size: 32px;
   line-height: 30px;
   font-weight: 300;
-}
-
-.imgTecnologias {
-  max-width: 100%;
-}
-
-.divImgTecnologias {
-  padding: 30px 20vw 10px 20vw;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .tecnologias {
@@ -175,4 +165,40 @@
 .road {
   background-color: #282c34;
   padding: 50px 0px 50px 0px;
+}
+
+.imgLogo {
+  max-width: 250px;
+}
+
+.sliderContainer {
+  padding: 0px 50px 0px 20px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.cardText {
+  font-size: 19px;
+  margin: 0px 20px 0px 20px;
+}
+
+.interesses {
+  background-color: white;
+  padding: 50px 0px 50px 0px;
+}
+
+
+.divCarousel {
+  margin: 10px 10vw 10px 10vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .divCarousel {
+    margin: 10px 10vw 10px 10vw;
+  }
 }
