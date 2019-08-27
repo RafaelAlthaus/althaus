@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png?token=ACGHPL7CJMAWHUGJBU3HOXC5N3IGU" width="600">
+</p>
+
 ## 💻 Rafael Althaus em ReactJS
 
 Site próprio e de código aberto. O objetivo desse projeto é servir de exemplo para estudantes começando no mundo do ReactJS, possuindo diversos casos de uso e conceitos básicos do framework.
