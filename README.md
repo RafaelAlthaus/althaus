@@ -14,10 +14,10 @@ A aplicação vem pré-configurada para dar deploy em um bucket na S3 utilizando
 
 :rocket: [create-react-app](https://github.com/facebook/create-react-app) <br />
 :rocket: [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) <br />
-:rocket: [ant-design](https://github.com/ant-design/ant-design)
-:rocket: [axios](https://github.com/axios/axios)
-:rocket: [react-lottie](https://github.com/chenqingspring/react-lottie)
-:rocket: [react-multi-carousel](https://github.com/YIZHUANG/react-multi-carousel)
+:rocket: [ant-design](https://github.com/ant-design/ant-design)<br />
+:rocket: [axios](https://github.com/axios/axios)<br />
+:rocket: [react-lottie](https://github.com/chenqingspring/react-lottie)<br />
+:rocket: [react-multi-carousel](https://github.com/YIZHUANG/react-multi-carousel)<br />
 :rocket: [react-sky](https://github.com/lucagez/sky)
 
 ## Me ajude a melhorar!
