@@ -8,7 +8,7 @@ export default class Tecnologias extends Component {
     render() {
         const responsive = {
             superLargeDesktop: {
-                breakpoint: { max: 4000, min: 1900 },
+                breakpoint: { max: 4000, min: 1400 },
                 items: 5,
             },
             desktop: {
