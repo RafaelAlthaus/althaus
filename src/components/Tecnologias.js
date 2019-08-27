@@ -17,11 +17,11 @@ export default class Tecnologias extends Component {
             },
             tablet: {
                 breakpoint: { max: 1024, min: 464 },
-                items: 3,
+                items: 2,
             },
             mobile: {
                 breakpoint: { max: 464, min: 0 },
-                items: 2,
+                items: 1,
             },
         };
 
@@ -58,7 +58,7 @@ export default class Tecnologias extends Component {
                         {
                             imagesJpg.map((obj, i) => {
                                 return (
-                                    <div><img src={'/images/logos/' + obj + '.jpg'} className="imgLogo" /></div>
+                                    <div key={i}><img alt='' src={'/images/logos/' + obj + '.jpg'} className="imgLogo" /></div>
                                 );
                             })
                         }

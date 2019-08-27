@@ -8,8 +8,10 @@
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "antd": "^3.22.0",
+    "axios": "^0.19.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-lottie": "^1.2.3",
     "react-multi-carousel": "^2.2.5",
     "react-scripts": "3.1.1",
     "react-sky": "^1.1.0"

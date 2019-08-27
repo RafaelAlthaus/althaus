@@ -22,12 +22,13 @@ export default class Interesse extends Component {
                                 this.props.data.links.map((obj, i) => {
                                     return (
                                         <Col key={i} xs={32} sm={32} md={12} lg={12} xl={8} className="cardColumn">
-                                            <a href={obj.link} target='_blank'>
-                                                <Card cover={<div style={{ height: 200, 
+                                            <a href={obj.link} target='_blank' rel="noopener noreferrer">
+                                                <Card cover={<div style={{
+                                                    height: 200,
                                                     backgroundImage: `url(${obj.img})`,
                                                     backgroundPosition: 'center center',
                                                     backgroundSize: 'cover'
-                                                     }} ></div>} hoverable>
+                                                }} ></div>} hoverable>
                                                     <Card.Meta title={obj.title} description={obj.subtitle} />
                                                 </Card>
                                             </a>
