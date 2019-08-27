@@ -8,7 +8,7 @@ Todos os dados da aplicação estão sendo consumidos localmente por um arquivo 
 
 ## 🚢 Deploy
 
-A aplicação vem pré-configurada para dar deploy em um bucket na S3 utilizando o comando `npm run-script` deploy. Para configurar o deploy em seu bucket próprio e levar o projeto para produção, siga o tutorial [nesse artigo.](https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6) Para uma melhor experiência, configure um domínio próprio e utiliza SSL.
+A aplicação vem pré-configurada para dar deploy em um bucket na S3 utilizando o comando `npm run-script` deploy. Para configurar o deploy em seu bucket próprio e levar o projeto para produção, siga o tutorial [nesse artigo.](https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6) Para uma melhor experiência, configure um domínio próprio e utilize SSL (AWS CloudFront).
 
 ## 🔀 Dependências utilizadas
 
