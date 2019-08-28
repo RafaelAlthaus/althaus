@@ -20,7 +20,7 @@ A aplicação vem pré-configurada para dar deploy em um bucket na S3 utilizando
 
 ## 🔀 Dependências utilizadas
 
-Não deixe de conhecer mais sobre as dependências utilizadas e ler as documentações.
+Não deixe de conhecer as dependências utilizadas e ler as documentações.
 <br /><br />
 :rocket: [create-react-app](https://github.com/facebook/create-react-app) <br />
 :rocket: [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) <br />
