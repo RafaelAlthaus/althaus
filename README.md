@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png" width="600">
   <p align="center">https://althaus.codes</p>
