@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png" width="600">
@@ -6,7 +6,7 @@
   <br />
 </p>
 
-## 💻 Rafael Althaus em ReactJS
+## 💻 Rafael Althaus em ReactJS [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Site para divulgação própria e de código aberto. O objetivo desse projeto é servir de exemplo para estudantes começando no mundo do ReactJS, possuindo diversos casos de uso e conceitos básicos do framework.
 
