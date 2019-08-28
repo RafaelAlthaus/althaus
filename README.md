@@ -1,16 +1,18 @@
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/RafaelAlthaus/althaus/master/public/images/header.png" width="600">
   <p align="center">https://althaus.codes</p>
   <br />
 </p>
 
-## 💻 Rafael Althaus em ReactJS
+## 💻 Rafael Althaus em ReactJS [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Site para divulgação própria e de código aberto. O objetivo desse projeto é servir de exemplo para estudantes começando no mundo do ReactJS, possuindo diversos casos de uso e conceitos básicos do framework.
 
 ## ⚠️ Observações
 
-Todos os dados da aplicação estão sendo consumidos localmente por um arquivo JSON na pasta pública. Para versão de produção, os dados estão sendo consumidos do mesmo arquivo JSON em um bucket da AWS S3 para facilitar a troca de conteúdo dinâmico. Certifique-se de mudar o caminho no arquivo no `App.js` e, caso também utilize o S3, configure o CORS para aceitar sua requisição.
+Todos os dados da aplicação estão armazenados em um arquivo JSON na pasta pública. Para versão de produção, os dados estão sendo consumidos de um JSON armazenado na AWS S3 para facilitar a troca de conteúdo dinâmico. Certifique-se de mudar o caminho no arquivo no `App.js` e, caso também utilize o S3, configure o CORS para aceitar sua requisição.
 
 ## 🚢 Deploy
 
@@ -18,7 +20,7 @@ A aplicação vem pré-configurada para dar deploy em um bucket na S3 utilizando
 
 ## 🔀 Dependências utilizadas
 
-Não deixe de conhecer mais sobre as dependências utilizadas e ler as documentações.
+Não deixe de conhecer as dependências utilizadas e ler as documentações.
 <br /><br />
 :rocket: [create-react-app](https://github.com/facebook/create-react-app) <br />
 :rocket: [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) <br />
