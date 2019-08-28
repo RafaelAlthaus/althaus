@@ -12,7 +12,7 @@ Site para divulgação própria e de código aberto. O objetivo desse projeto é
 
 ## ⚠️ Observações
 
-Todos os dados da aplicação estão sendo consumidos localmente por um arquivo JSON na pasta pública. Para versão de produção, os dados estão sendo consumidos do mesmo arquivo JSON em um bucket da AWS S3 para facilitar a troca de conteúdo dinâmico. Certifique-se de mudar o caminho no arquivo no `App.js` e, caso também utilize o S3, configure o CORS para aceitar sua requisição.
+Todos os dados da aplicação estão armazenados em um arquivo JSON na pasta pública. Para versão de produção, os dados estão sendo consumidos de um JSON armazenado na AWS S3 para facilitar a troca de conteúdo dinâmico. Certifique-se de mudar o caminho no arquivo no `App.js` e, caso também utilize o S3, configure o CORS para aceitar sua requisição.
 
 ## 🚢 Deploy
 
